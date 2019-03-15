@@ -7,4 +7,9 @@
 - これでパソコンの中にもう一つ小さいパソコンが！！
 
 ## コマンド
-
+- virt-manager
+	- 新しい仮想マシン立ち上げる
+- apt-get install python3-venv
+- python3 -m venv [名前]
+- . ./venv/bin/activate
+- deactivate
