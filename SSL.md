@@ -4,3 +4,7 @@
 - SSL/TLSの上にHTTPをのせる(プロトコルを二重にする)ことによって暗号化
 - http://ではなく、http*s*://になる
 
+# HTTPS
+- DjangoでそのままHTTPSを受け取るのはちょっと...
+- Apatcheを使う
+[APACHE]:https://httpd.apache.org/docs/2.4/'Apache公式'
