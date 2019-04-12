@@ -5,6 +5,7 @@
 [1]
 - import configparser
 - config = configparser.ConfigParser()
+
 [2]
 - from configparser import ConfigParser
 - config = ConfigParser()
