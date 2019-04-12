@@ -22,7 +22,7 @@
 2. 基本設定
 3. モジュール導入
 
-???
+- ???
 - ダウンロード: $ lynx http://httpd.apache.org/download.cgi
 - 展開: $ gzip -d httpd-NN.tar.gz
         $ tar xvf httpd-NN.tar
@@ -35,9 +35,17 @@
 
 - NN : 最新のバージョンナンバー
 - PREFIX : インストールするサーバでのファイルシステムのパス(デフォルト:/usr/local/apache2)
-???
+- ???
 
 - apt-get update
 - apt-get install apache2 パッケージのインストール
 -/etc/apache2/mods-available/dir.conf、/etc/apache2/conf-available/security.conf、/etc/apache2/apache2.confを編集
 - /etc/init.d/apache2 restartでApache2を再起動
+
+
+- sudo apt update
+- sudo apt install apache2
+- 起動:sudo service apache2 start
+- 再起動:sudo service apache2 restart
+- 停止:sudo service apache2 stop
+
